@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Política de Privacidade</title>
+<meta name="description" content="Política de privacidade do site Casa de Ração.">
+
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<header class="bg-green-600 text-white p-4">
+<div class="max-w-5xl mx-auto flex justify-between">
+<h1 class="font-bold">Casa de Ração</h1>
+<a href="index.html">Home</a>
+</div>
+</header>
+
+<div class="max-w-3xl mx-auto bg-white p-6 mt-6 rounded shadow">
+
+<h1 class="text-2xl font-bold mb-4">Política de Privacidade</h1>
+
+<p class="mb-4">
+A sua privacidade é importante para nós. Esta política explica como coletamos, usamos e protegemos suas informações.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Coleta de Informações</h2>
+<p class="mb-4">
+Coletamos informações básicas como dados de navegação, cookies e interações no site para melhorar sua experiência.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Uso das Informações</h2>
+<p class="mb-4">
+Utilizamos as informações para melhorar o conteúdo, personalizar anúncios e oferecer melhores serviços.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Cookies</h2>
+<p class="mb-4">
+Usamos cookies para melhorar a navegação. Você pode desativar os cookies no seu navegador a qualquer momento.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Links Externos</h2>
+<p class="mb-4">
+Nosso site pode conter links para outros sites. Não somos responsáveis pelas políticas desses sites.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Afiliados</h2>
+<p class="mb-4">
+Podemos ganhar comissão através de links de afiliados, sem custo adicional para você.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Segurança</h2>
+<p class="mb-4">
+Adotamos medidas para proteger suas informações, mas nenhum sistema é 100% seguro.
+</p>
+
+<h2 class="font-bold mt-6 mb-2">Alterações</h2>
+<p class="mb-4">
+Podemos atualizar esta política a qualquer momento.
+</p>
+
+</div>
+
+<footer class="bg-green-600 text-white text-center p-4 mt-6">
+© 2026 Casa de Ração
+</footer>
+
+</body>
+</html>

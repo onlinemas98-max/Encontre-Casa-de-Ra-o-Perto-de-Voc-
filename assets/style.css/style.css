@@ -5,6 +5,8 @@
     border-radius: 12px;
     background: #fff;
     font-weight: 600;
+    font-size: 15px;
+    color: #111827;
     transition: all 0.3s ease;
     text-decoration: none;
 }
@@ -12,4 +14,17 @@
 .card:hover {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     transform: translateY(-3px);
+}
+
+/* melhora clique no mobile */
+.card:active {
+    transform: scale(0.98);
+}
+
+/* melhora espaçamento em telas pequenas */
+@media (max-width: 640px) {
+    .card {
+        padding: 18px;
+        font-size: 16px;
+    }
 }

@@ -1,327 +1,322 @@
-import os
-
-# Conteúdo HTML otimizado
-html_content = """<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa de Ração em Ribeirão Preto: Perto de Você e Aberta | Guia 2026</title>
-    <meta name="description" content="Procurando casa de ração em Ribeirão Preto aberta agora? Veja as melhores lojas, preços baixos, entrega rápida e opções de ração barata perto de você.">
-    <style>
-        :root {
-            --primary-color: #2e7d32;
-            --secondary-color: #1b5e20;
-            --accent-color: #f9f9f9;
-            --text-color: #333;
-            --white: #ffffff;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
-            background-color: #fff;
-        }
-        header {
-            background-color: var(--primary-color);
-            padding: 10px 0;
-            border-bottom: 3px solid #1e4620;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: var(--primary-color);
-            font-size: 24pt;
-            line-height: 1.2;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: var(--primary-color);
-            font-size: 18pt;
-            border-left: 5px solid var(--primary-color);
-            padding-left: 10px;
-            margin-top: 30px;
-        }
-        h3 {
-            color: var(--secondary-color);
-            font-size: 14pt;
-        }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        .btn-main {
-            display: block;
-            width: fit-content;
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            margin: 25px auto;
-            font-size: 18px;
-            transition: background 0.3s;
-        }
-        .btn-main:hover {
-            background-color: var(--secondary-color);
-        }
-        .store-card {
-            background: var(--accent-color);
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ddd;
-        }
-        .store-card strong {
-            display: block;
-            font-size: 1.1em;
-            color: var(--primary-color);
-        }
-        .conversion-block {
-            text-align: center;
-            padding: 20px;
-            background: #f0f4f0;
-            border-radius: 10px;
-            margin: 30px 0;
-        }
-        .conversion-block img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .faq-item {
-            background: #fff;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #eee;
-        }
-        .faq-question {
-            font-weight: bold;
-            color: var(--secondary-color);
-            display: block;
-            margin-bottom: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: #f1f1f1;
-            margin-top: 40px;
-        }
-        .top-link {
-            text-decoration: none;
-            color: var(--primary-color);
-            font-weight: bold;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-    </style>
+    
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BZ8GPSGM4S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BZ8GPSGM4S');
+</script> 
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Casa de Ração em Ribeirão Preto: Perto e Aberta</title>
+
+<meta name="description" content="Casa de ração em Ribeirão Preto aberta agora, com melhores preços, entrega rápida e lojas confiáveis perto de você.">
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  line-height: 1.6;
+  color: #333;
+}
+header {
+  background: #1f7a34;
+  color: #fff;
+  padding: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 6px;
+}
+h1, h2, h3 {
+  color: #1f7a34;
+}
+.btn {
+  background: #1f7a34;
+  color: #fff;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #166528;
+}
+.faq {
+  background: #f1f1f1;
+  padding: 12px;
+  border-left: 4px solid #1f7a34;
+  margin-bottom: 10px;
+}
+.topo {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #1f7a34;
+}
+footer {
+  background: #1f7a34;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+</style>
+
 </head>
+
 <body>
 
 <header>
-    <div class="container" style="padding:0;">
-        <div style="color:white; font-weight:bold; font-size: 20px; padding-left:20px;">Guia Pet Ribeirão</div>
-    </div>
+Casa de Ração em Ribeirão Preto
 </header>
 
-<div class="container">
-    <h1>Casa de Ração em Ribeirão Preto: Perto de Você e Aberta</h1>
+<main>
 
-    <p>Se você procura uma <strong>casa de ração em Ribeirão Preto aberta agora</strong>, com bons preços e entrega rápida, você está no lugar certo.</p>
-    <p>Muitos donos de pets acabam pagando caro ou comprando produtos inadequados por falta de informação. Isso pode prejudicar a saúde do animal e aumentar gastos.</p>
-    <p>Neste guia completo, você vai encontrar as melhores lojas, dicas práticas e estratégias para economizar com segurança.</p>
+<h1>Casa de Ração em Ribeirão Preto: Perto de Você e Aberta</h1>
 
-    <a href="https://onlinemas98-max.github.io/Encontre-Casa-de-Ra-o-Perto-de-Voc-/" class="btn-main">👉 Ver Agora as Melhores Opções</a>
+<p>
+Se você procura uma <strong>casa de ração em Ribeirão Preto aberta agora</strong>, provavelmente está com pressa e quer resolver isso rápido, sem errar na escolha.
+</p>
 
-    <h2>Onde encontrar casa de ração em Ribeirão Preto</h2>
-    <p>Encontrar uma <strong>casa de ração em Ribeirão Preto perto de você</strong> é fácil, mas quando você sabe onde procurar.</p>
-    <p>Hoje, você pode comparar preços e ver avaliações online antes de sair de casa, economizando tempo e dinheiro.</p>
-    <p>Veja nossa lista atualizada: <a href="https://onlinemas98-max.github.io/Encontre-Casa-de-Ra-o-Perto-de-Voc-/" target="_blank" rel="nofollow noopener">veja mais detalhes aqui</a>.</p>
+<p>
+O problema é que muita gente acaba comprando ração cara demais ou de baixa qualidade, simplesmente por não conhecer boas opções próximas.
+</p>
 
-    <h2>Por que escolher bem uma casa de ração faz diferença</h2>
-    <p>Escolher uma <strong>casa de ração em Ribeirão Preto confiável</strong> vai muito além de encontrar o menor preço. A qualidade da alimentação impacta diretamente na saúde e no bem-estar do seu pet.</p>
-    <p>Uma ração de baixa qualidade pode causar problemas digestivos, quedas de pelos e até doenças mais sérias com o tempo. Por isso, é essencial comprar em locais confiáveis.</p>
-    <p>Já uma boa loja garante mais energia, melhor desenvolvimento e, menos gastos com veterinário no futuro.</p>
+<p>
+Neste guia completo, você vai descobrir as melhores lojas, como economizar e como garantir a melhor alimentação para o seu pet sem complicação.
+</p>
 
-    <h2>Dicas avançadas para escolher a melhor loja</h2>
-    <p>Se você quer acertar na escolha da <strong>casa de ração em Ribeirão Preto perto de você</strong>, fique atento a alguns pontos importantes:</p>
-    <ul>
-        <li>Prefira lojas com boas avaliações no Google.</li>
-        <li>Observe se o ambiente é limpo e organizado.</li>
-        <li>Verifique a validade dos produtos.</li>
-        <li>Prefira lojas com marcas conhecidas.</li>
-        <li>Veja se oferece entrega rápida.</li>
-    </ul>
-    <p>Esses fatores aumentam muito a segurança na hora da compra.</p>
-
-    <h2>Como saber se a ração é de qualidade</h2>
-    <p>Além da loja, é importante escolher bem a ração. Nem sempre a mais barata é a melhor opção.</p>
-    <ul>
-        <li>Confira os ingredientes no rótulo.</li>
-        <li>Evite produtos com excesso de corantes.</li>
-        <li>Prefira opções premium.</li>
-        <li>Considere a idade e o porte do pet.</li>
-    </ul>
-    <p>Essas dicas ajudam a garantir uma alimentação mais saudável.</p>
-
-    <div class="conversion-block">
-        <h3>Recomendação do Especialista</h3>
-        <a href="https://s.shopee.com.br/901JVOeuLa" target="_blank" rel="nofollow noopener">
-            <img src="https://i.postimg.cc/C1mr71Mf/antipulgas-para-gato.webp" alt="Antipulgas para Gato e Cão - Melhor Preço">
-        </a>
-        <br>
-        <a href="https://s.shopee.com.br/901JVOeuLa" class="btn-main" style="margin-top:15px;">👉 Ver preço agora</a>
-    </div>
-
-    <h2>Lista de casas de ração em Ribeirão Preto</h2>
-
-    <div class="store-card">
-        <strong>Casa da Ração</strong>
-        Rua Luiz Barreto, 1661 | Tel: (16) 3626-6209<br>
-        ⭐ 4,9 (678 avaliações) | Aberto até 19:00
-    </div>
-
-    <div class="store-card">
-        <strong>Ponto das Rações - Parque Ribeirão</strong>
-        R. Lúcio de Mendonça, 2104 | Tel: (16) 3919-8438<br>
-        ⭐ 4,8 (578 avaliações) | Aberto até 20:00
-    </div>
-
-    <div class="store-card">
-        <strong>Casa de Ração Vila Virginia</strong>
-        R. Rangel Pestana, 1430 | Tel: (16) 99148-6550<br>
-        ⭐ 4,8 (17 avaliações) | Aberto até 18:30
-    </div>
-
-    <div class="store-card">
-        <strong>Petz Ribeirão Independência</strong>
-        Av. Independência, 1810 | Tel: (16) 3602-8190<br>
-        ⭐ 4,6 (1,4 mil avaliações) | Aberto até 22:00
-    </div>
-
-    <div class="store-card">
-        <strong>Ribeirão Mundo Pet</strong>
-        Av. Independência, 3855 | Tel: (16) 3620-1525<br>
-        ⭐ 4,9 (307 avaliações) | Aberto até 20:00
-    </div>
-
-    <div class="store-card">
-        <strong>Casa Dos Animais</strong>
-        Av. Pedro Abrahao Alem Neto, 1185 | Tel: (16) 99302-3812<br>
-        ⭐ 4,6 (133 avaliações) | Aberto até 21:00
-    </div>
-
-    <div class="store-card">
-        <strong>Boi Branco Rações, Pesca e Jardinagem</strong>
-        Av. Luzitana, 1024 | Tel: (16) 3621-5221<br>
-        ⭐ 4,6 (181 avaliações) | Aberto até 19:00
-    </div>
-
-    <div class="store-card">
-        <strong>Casa Pet Rações</strong>
-        R. Guerino Fonzar, 181 | Tel: (16) 3975-2813<br>
-        ⭐ 4,8 (124 avaliações) | Aberto até 19:00
-    </div>
-
-    <div class="store-card">
-        <strong>Paranimais Pet Shop e Ração</strong>
-        Av. Nove de Julho, 1209 | Tel: (16) 98193-1223<br>
-        ⭐ 4,8 (371 avaliações) | Aberto até 18:30
-    </div>
-
-    <div class="store-card">
-        <strong>Rações 2 Irmãos</strong>
-        Av. Cásper Líbero, 528 | Tel: (16) 3637-2199<br>
-        ⭐ 4,5 (247 avaliações) | Aberto até 18:00
-    </div>
-
-    <h2>O que você encontra em uma casa de ração</h2>
-    <p>As lojas de Ribeirão Preto oferecem um mix completo para seu animal de estimação:</p>
-    <ul>
-        <li>Rações premium e econômicas.</li>
-        <li>Petiscos e suplementos.</li>
-        <li>Produtos de higiene.</li>
-        <li>Acessórios.</li>
-        <li>Medicamentos básicos.</li>
-    </ul>
-
-    <h2>Vantagens de escolher bem</h2>
-    <ul>
-        <li>Mais saúde para o animal.</li>
-        <li>Economia a longo prazo.</li>
-        <li>Menos gastos veterinários.</li>
-        <li>Mais praticidade.</li>
-    </ul>
-
-    <h2>Como economizar na compra de ração</h2>
-    <p>Economizar não significa comprar o mais barato, mas sim fazer escolhas inteligentes.</p>
-    <ul>
-        <li>Compre em maior quantidade.</li>
-        <li>Aproveite promoções.</li>
-        <li>Compare preços online.</li>
-        <li>Use cupons de desconto.</li>
-        <li>Evite desperdícios.</li>
-    </ul>
-    <p>Essas estratégias, ajudam a reduzir bastante os gastos mensais.</p>
-
-    <h2>FAQ - Perguntas Frequentes</h2>
-
-    <div class="faq-item">
-        <span class="faq-question">Onde encontrar casa de ração em Ribeirão Preto?</span>
-        <span>Você pode encontrar em diversos bairros ou pesquisar online para ver a mais próxima.</span>
-    </div>
-
-    <div class="faq-item">
-        <span class="faq-question">Qual a melhor loja?</span>
-        <span>A melhor é aquela com boas avaliações e preço justo, como a Casa da Ração ou Ponto das Rações.</span>
-    </div>
-
-    <div class="faq-item">
-        <span class="faq-question">Vale a pena comprar online?</span>
-        <span>Sim, principalmente com promoções e entrega agendada.</span>
-    </div>
-
-    <div class="faq-item">
-        <span class="faq-question">Como economizar?</span>
-        <span>Compre pacotes maiores e sempre compare os preços por quilo.</span>
-    </div>
-
-    <div class="faq-item">
-        <span class="faq-question">É confiável?</span>
-        <span>Sim, desde que a loja seja reconhecida e bem avaliada na região.</span>
-    </div>
-
-    <h2>Conclusão</h2>
-    <p>Escolher uma <strong>casa de ração em Ribeirão Preto</strong> confiável garante saúde e economia.</p>
-    <p>Com as dicas certas, você evita problemas e compra melhor.</p>
-    <p>Clique abaixo e veja as melhores opções agora.</p>
-
-    <a href="https://onlinemas98-max.github.io/Encontre-Casa-de-Ra-o-Perto-de-Voc-/" class="btn-main">👉 Ver Casas de Ração Próximas Agora</a>
-
-    <footer>
-        <a href="#" class="top-link">Voltar ao topo</a>
-        <p>© 2026 Guia de Rações Ribeirão Preto - Todos os direitos reservados.</p>
-    </footer>
+<div style="text-align:center;">
+<a href="https://onlinemas98-max.github.io/Encontre-Casa-de-Ra-o-Perto-de-Voc-/" target="_blank" class="btn">
+👉 Ver Agora as Melhores Opções
+</a>
 </div>
 
+<h2>Onde encontrar casa de ração em Ribeirão Preto</h2>
+
+<p>
+Encontrar uma <strong>casa de ração em Ribeirão Preto perto de você</strong> nunca foi tão fácil quanto hoje.
+</p>
+
+<p>
+Com o avanço da internet, você pode pesquisar avaliações, comparar preços e até descobrir quais lojas estão abertas neste momento.
+</p>
+
+<p>
+Além disso, muitas casas de ração oferecem entrega rápida, o que ajuda muito quando você precisa com urgência.
+</p>
+
+<p>
+Para ver opções atualizadas:
+<a href="https://onlinemas98-max.github.io/Encontre-Casa-de-Ra-o-Perto-de-Voc-/" target="_blank" rel="nofollow noopener">
+veja mais detalhes aqui
+</a>.
+</p>
+
+<h2>Lista de casas de ração em Ribeirão Preto</h2>
+
+<h3>Casa da Ração</h3>
+<ul>
+<li>Rua Luiz Barreto, 1661</li>
+<li>(16) 3626-6209</li>
+<li>4,9 (678 avaliações)</li>
+</ul>
+
+<h3>Ponto das Rações</h3>
+<ul>
+<li>R. Lúcio de Mendonça, 2104</li>
+<li>(16) 3919-8438</li>
+<li>4,8 (578 avaliações)</li>
+</ul>
+
+<h3>Petz Ribeirão Independência</h3>
+<ul>
+<li>Av. Independência, 1810</li>
+<li>(16) 3602-8190</li>
+<li>4,6 (1,4 mil avaliações)</li>
+</ul>
+
+<h3>Ribeirão Mundo Pet</h3>
+<ul>
+<li>Av. Independência, 3855</li>
+<li>(16) 3620-1525</li>
+<li>4,9 (307 avaliações)</li>
+</ul>
+
+<h3>Casa Dos Animais</h3>
+<ul>
+<li>Av. Pedro Abrahao Alem Neto, 1185</li>
+<li>(16) 99302-3812</li>
+<li>4,6 (133 avaliações)</li>
+</ul>
+
+<h3>Villa Pet Shop</h3>
+<ul>
+<li>R. São Francisco, 1300</li>
+<li>(16) 99314-3749</li>
+<li>4,9 (211 avaliações)</li>
+</ul>
+
+<h2>Por que escolher bem uma casa de ração faz diferença</h2>
+
+<p>
+Escolher uma <strong>casa de ração em Ribeirão Preto confiável</strong> não é só uma questão de preço.
+</p>
+
+<p>
+A alimentação do seu pet influencia diretamente na saúde, energia e qualidade de vida dele.
+</p>
+
+<p>
+Uma ração ruim pode causar problemas digestivos, queda de pelo e até doenças mais graves.
+</p>
+
+<p>
+Já uma escolha correta ajuda seu animal a viver mais e melhor, além de evitar gastos com veterinário.
+</p>
+
+<h2>Como escolher a melhor casa de ração</h2>
+
+<ul>
+<li>Prefira lojas com boas avaliações</li>
+<li>Observe organização e limpeza</li>
+<li>Verifique validade dos produtos</li>
+<li>Compare preços</li>
+<li>Veja se oferece entrega</li>
+</ul>
+
+<p>
+Esses critérios simples já eliminam grande parte dos riscos.
+</p>
+
+<h2>O que você encontra em uma casa de ração</h2>
+
+<p>
+Uma boa casa de ração oferece muito mais do que apenas alimento.
+</p>
+
+<ul>
+<li>Rações premium e econômicas</li>
+<li>Petiscos</li>
+<li>Suplementos</li>
+<li>Produtos de higiene</li>
+<li>Acessórios</li>
+</ul>
+
+<p>
+Isso facilita muito sua rotina, permitindo resolver tudo em um único lugar.
+</p>
+
+<h2>Produto recomendado</h2>
+
+<div style="text-align:center;">
+<a href="https://s.shopee.com.br/901JVOeuLa" target="_blank">
+<img src="https://i.postimg.cc/C1mr71Mf/antipulgas-para-gato.webp" width="300" alt="antipulgas para gatos barato">
+</a>
+<br>
+<a href="https://s.shopee.com.br/901JVOeuLa" target="_blank" class="btn">
+👉 Ver preço agora
+</a>
+</div>
+
+<h2>Vantagens de comprar em lojas confiáveis</h2>
+
+<ul>
+<li>Produtos originais</li>
+<li>Mais segurança</li>
+<li>Melhor custo-benefício</li>
+<li>Atendimento especializado</li>
+</ul>
+
+<p>
+Isso faz toda diferença no longo prazo.
+</p>
+
+<h2>Como economizar na compra de ração</h2>
+
+<ul>
+<li>Comprar em quantidade</li>
+<li>Comparar preços online</li>
+<li>Aproveitar promoções</li>
+<li>Usar cupons</li>
+<li>Evitar desperdício</li>
+</ul>
+
+<p>
+Com essas estratégias, você consegue reduzir bastante seus gastos.
+</p>
+
+<h2>FAQ</h2>
+
+<div class="faq">
+<strong>Onde encontrar casa de ração em Ribeirão Preto?</strong>
+<p>Pesquise no Google ou veja listas atualizadas online.</p>
+</div>
+
+<div class="faq">
+<strong>Qual a melhor loja?</strong>
+<p>A que tem boas avaliações e preços justos.</p>
+</div>
+
+<div class="faq">
+<strong>Vale a pena comprar online?</strong>
+<p>Sim, principalmente com promoções.</p>
+</div>
+
+<div class="faq">
+<strong>Como economizar?</strong>
+<p>Compare preços e compre em maior quantidade.</p>
+</div>
+
+<div class="faq">
+<strong>É confiável?</strong>
+<p>Sim, desde que seja uma loja bem avaliada.</p>
+</div>
+
+<h2>Conclusão</h2>
+
+<p>
+Agora você já sabe como encontrar a melhor <strong>casa de ração em Ribeirão Preto</strong> sem perder tempo e sem gastar mais do que deveria.
+</p>
+
+<p>
+Use essas dicas para fazer escolhas inteligentes e garantir o melhor para o seu pet.
+</p>
+
+<p>
+Clique abaixo e veja as melhores opções disponíveis agora.
+</p>
+
+<div style="text-align:center;">
+<a href="https://onlinemas98-max.github.io/Encontre-Casa-de-Ra-o-Perto-de-Voc-/" target="_blank" class="btn">
+👉 Ver Casas de Ração Próximas Agora
+</a>
+</div>
+
+<a href="#" class="topo">Voltar ao topo</a>
+
+</main>
+
+<footer>
+© 2026 Casa de Ração Perto de Mim - Todos os direitos reservados.
+</footer>
+
 </body>
-</html>"""
-
-# Salvar o arquivo
-file_name = "casa-de-racao-ribeirao-preto.html"
-with open(file_name, "w", encoding="utf-8") as f:
-    f.write(html_content)
-
-print(f"Arquivo {file_name} gerado com sucesso.")
+</html>
